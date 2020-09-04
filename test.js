@@ -70,9 +70,9 @@ function showResults(){
     // show number of correct answers out of total
     resultsContainer.innerHTML = `Kết quả của bạn: ${numCorrect}/${questionsDisplayed.length}`;
     document.getElementById("other").innerHTML = 
-    `<button onclick='location.href="main.html"'>Làm đề khác</button>
+    `<button onclick='location.href="test.html"'>Làm đề khác</button>
     <button onclick='location.href="diary.html"'>Viết nhật kí</button>
-    <button onclick='location.href="home.html"'>Quay lại trang chủ</button>`;
+    <button onclick='location.href="index.html"'>Quay lại trang chủ</button>`;
 }
 
 // display quiz right away
